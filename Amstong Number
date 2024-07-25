@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+	int n,r,temp,sum=0;
+	printf("Enter any Number:");
+	scanf("%d",&n);
+	temp=n;
+	while(n>0){
+	    r= n %10;
+	    sum = sum + (r*r*r);
+	    n = n/10;
+	}
+	if(sum==temp){
+	    printf("This is Amstong Number");
+	}else{
+	    printf("This is not a Amstrong Number");
+	}
+	return 0;
+}
