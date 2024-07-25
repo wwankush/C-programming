@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+	int a;
+	printf("Enter any Number:");
+	scanf("%d",&a);
+	if(a%5==0){
+	    printf("This is Divisable by 5");
+	}else{
+	    printf("This is not Divisable by 5");
+	}
+	return 0;
+}
